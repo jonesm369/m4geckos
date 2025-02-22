@@ -1,0 +1,70 @@
+@charset "UTF=8";
+
+*{box-sizing: border-box;
+
+}
+#container{
+    width: 850px;
+    background-color: rgb(228, 105, 142);
+    height: 600px;
+}
+.imageBox{
+    width: 400px;
+    height: 500px;
+    margin-left: 15px;
+    background-color: rgba(240, 141, 174, 0.418);
+    padding-left: 25px;
+    padding-top: 17px;
+}
+.right{
+    width: 400px;
+    height: 500px;
+    float: right;
+    background-color: rgba(240, 141, 174, 0.418);
+    margin-right: 15px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(136, 12, 49);
+    font-family: Silkscreen;
+
+
+}
+footer{
+    clear: both;
+    padding-top: 8px;
+}
+.right a:link{
+    color: rgb(108, 211, 159);
+    font-size: 1.5em;
+    margin-left: 10px;
+    text-decoration-color:rgba(5, 66, 119, 0.719) ;
+    font-family: Silkscreen;
+    text-decoration: none;
+}
+.right a:hover{
+    font-size: 1.8em;
+    text-decoration: none;
+    color: rgb(31, 82, 82);
+}
+.right a:active{
+    color: aqua;
+    text-decoration: underline;
+}
+.right a:visited{
+    color: rgb(204, 32, 75);
+    text-decoration: underline;
+
+}
+
+.silkscreen-regular {
+    font-family: "Silkscreen", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .silkscreen-bold {
+    font-family: "Silkscreen", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
